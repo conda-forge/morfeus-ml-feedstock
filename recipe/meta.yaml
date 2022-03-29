@@ -1,5 +1,5 @@
 {% set name = "morfeus-ml" %}
-{% set version = "0.5.5" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/morfeus-ml-{{ version }}.tar.gz
-  sha256: d63bc33e9da3214ddc874d46316adc9054ff8a771a7d4aa829efc0496738818c
+  sha256: 4630ce3d6013a9da1ea309e78a9a1d472079e928097f5e633edd4f9c19c58815
 
 build:
   number: 0
