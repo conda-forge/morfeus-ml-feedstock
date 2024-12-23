@@ -11,7 +11,7 @@ source:
   sha256: 8b3a1029ac94fb22e982df45a6d41cd253a89fffadea2fd93d6ceea37e14e49d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - morfeus=morfeus.__main__:main
@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools
   run:
     - fire
     - numpy
