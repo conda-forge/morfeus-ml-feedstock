@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/morfeus-ml-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/morfeus-ml-{{ version }}.tar.gz
   sha256: 8b3a1029ac94fb22e982df45a6d41cd253a89fffadea2fd93d6ceea37e14e49d
 
 build:
